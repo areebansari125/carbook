@@ -1,6 +1,4 @@
-<?php 
 
-?>
 
 <!DOCTYPE html>
 <html lang="en">
@@ -11,7 +9,12 @@
     <title>Document</title>
 </head>
 <body>
-    
+  <div class="row">
+    <div class="col-3">
+      <button class="btn"><a class="btn form-control" href="index.php">Home</a></button>
+    </div>
+  </div>
+
 <section class="h-100">
   <div class="container h-100 py-5">
     <div class="row d-flex justify-content-center align-items-center h-100">

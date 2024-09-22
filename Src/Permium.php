@@ -14,8 +14,8 @@ include 'header.php'
 						<?php 
 						$fetch = "SELECT * FROM `cars`";
 						$query = mysqli_query($conn,$fetch);
-						if($row = mysqli_fetch_array($query)){
-							if($row['type'] == 'permium'){
+						while($row = mysqli_fetch_array($query)){
+							if($row['type'] == 'permium' & $row['status'] == 'Available'){
 						?>
 						<div class="col-lg-3 col-md-4 col-sm-6">
 							<div class="single-featured-cars">
